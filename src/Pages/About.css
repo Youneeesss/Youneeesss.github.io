@@ -1,0 +1,90 @@
+.about {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .highlight {
+    color: #6a0dad;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row; /* Change this to row */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-image-container {
+    width: 200px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 5%;
+    margin-right: 50px; /* Add margin-right to space out the image from the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about-text {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .about-text h3 {
+    font-size: 1.5rem;
+    color: #6a0dad;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .about-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .about-text a:hover {
+    text-decoration: underline;
+  }
+
+  .about-text .btn {
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
