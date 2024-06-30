@@ -38,7 +38,15 @@ const projectData = [
       Web scraping to collect data from Vivino and WineEnthusiast.
       Analyzed sentiment of wine reviews using VADER, LSTM, and SVM classifiers.`,
     githubLink: 'https://github.com/Youneeesss/Sentiment-Analysis-for-the-Wine-Industry'
-  }
+  },
+  {
+    image: 'https://via.placeholder.com/300', // Replace with DALL-E generated image URL
+    title: 'Kalimaty: Arabic Contexto.me',
+    details: `
+      Developed an engaging Arabic word guessing game inspired by contexto.me, leveraging Machine Learning techniques and Natural Language Processing (NLP) using BERT from Huggingface for intelligent feedback. 
+      Built with a Flask backend and React frontend, the application is fully containerized using Docker`,
+    githubLink: 'https://github.com/Youneeesss/Arabic-Contexto.me/'
+  },
 ];
 
 function Projects() {
