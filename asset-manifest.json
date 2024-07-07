@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0deb32b2.css",
+    "main.js": "/static/js/main.1653569d.js",
+    "static/media/IMG_0923.jpg": "/static/media/IMG_0923.cb31bff50c06d8e947f3.jpg",
+    "static/media/EA.png": "/static/media/EA.c99d22c5d512f809dabf.png",
+    "static/media/YO.webp": "/static/media/YO.03ea7974b7a11cd03446.webp",
+    "static/media/polyconseil.png": "/static/media/polyconseil.d35bdcd7180d895a1bb0.png",
+    "index.html": "/index.html",
+    "main.0deb32b2.css.map": "/static/css/main.0deb32b2.css.map",
+    "main.1653569d.js.map": "/static/js/main.1653569d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0deb32b2.css",
+    "static/js/main.1653569d.js"
+  ]
+}
