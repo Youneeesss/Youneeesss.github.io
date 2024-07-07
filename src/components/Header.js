@@ -10,12 +10,12 @@ function Header() {
         <span>Younes Oumhamed</span>
       </div>
       <nav>
-        <a href="#home" className="nav-link">Home</a>
-        <a href="#about" className="nav-link">About</a>
-        <a href="#skills" className="nav-link">Skills</a>
-        <a href="#education" className="nav-link">Education</a>
-        <a href="#work" className="nav-link">Work</a>
-        <a href="#projects" className="nav-link">Projects</a>
+        <a href={process.env.PUBLIC_URL + "#home"} className="nav-link">Home</a>
+        <a href={process.env.PUBLIC_URL + "#about"} className="nav-link">About</a>
+        <a href={process.env.PUBLIC_URL + "#skills"} className="nav-link">Skills</a>
+        <a href={process.env.PUBLIC_URL + "#education"} className="nav-link">Education</a>
+        <a href={process.env.PUBLIC_URL + "#work"} className="nav-link">Work</a>
+        <a href={process.env.PUBLIC_URL + "#projects"} className="nav-link">Projects</a>
       </nav>
     </header>
   );
