@@ -14,18 +14,17 @@
   transform: translateY(-10px);
 }
 .education-image-container {
-  width: 150px; /* Adjust as necessary */
-  height: 150px; /* Adjust as necessary */
-  overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  flex-shrink: 0;
 }
 
 .education-image {
   max-width: 100%;
   max-height: 100%;
-  object-fit: cover;
 }
 
 .education-content {

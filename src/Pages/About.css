@@ -21,8 +21,8 @@
   }
   
   .about-image-container {
-    width: 200px;
-    height: 350px;
+    min-width: 300px;
+    height: 500px;
     overflow: hidden;
     border-radius: 5%;
     margin-right: 50px; /* Add margin-right to space out the image from the text */

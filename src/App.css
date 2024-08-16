@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: DejaVu Sans Mono, monospace;
   margin: 0;
   padding: 0;
   background-color: #f4f4f9;
@@ -61,8 +61,7 @@ nav a:hover {
 
 .section {
   padding: 60px 20px; /* Increased padding to ensure no overlap */
-  margin: 0 auto;
-  max-width: 800px;
+  margin: 0 10%;
   text-align: center;
   padding-top: 70px; /* Adjust based on the header height */
 }

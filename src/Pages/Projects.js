@@ -32,15 +32,6 @@ const projectData = [
   },
   {
     image: 'https://via.placeholder.com/300', // Replace with DALL-E generated image URL
-    title: 'Sentiment Analysis for the Wine Industry',
-    details: `
-      Conducted Big Data analysis using the Google Trends API to guide Ciù Ciù's decisions and support their potential market.
-      Web scraping to collect data from Vivino and WineEnthusiast.
-      Analyzed sentiment of wine reviews using VADER, LSTM, and SVM classifiers.`,
-    githubLink: 'https://github.com/Youneeesss/Sentiment-Analysis-for-the-Wine-Industry'
-  },
-  {
-    image: 'https://via.placeholder.com/300', // Replace with DALL-E generated image URL
     title: 'Kalimaty: Arabic Contexto.me',
     details: `
       Developed an engaging Arabic word guessing game inspired by contexto.me, leveraging Machine Learning techniques and Natural Language Processing (NLP) using BERT from Huggingface for intelligent feedback. 

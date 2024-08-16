@@ -21,9 +21,8 @@ function About() {
             Fluent in English, French, Amazigh, and Arabic with basic knowledge of Swedish, I thrive in collaborative, innovative environments.
           </p>
           <p>
-            <strong>Email 1:</strong> <a href="mailto:oumhamed@kth.se">oumhamed@kth.se</a><br />
+            <strong>Email:</strong> <a href="mailto:oumhamed@kth.se">oumhamed@kth.se</a><br />
           </p>
-          <a href="path/to/your/resume.pdf" className="btn" target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
       </div>
     </div>

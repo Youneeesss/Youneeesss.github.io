@@ -6,26 +6,29 @@ import './Education.css';
 const educationData = [
   {
     image: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/KTH_Royal_Institute_of_Technology_logo.svg/1200px-KTH_Royal_Institute_of_Technology_logo.svg.png', // Replace with actual image URL
-    degree: 'Double Degree with Centrale Nantes',
+    degree: "Master's of Science in Machine Learning",
     institution: 'KTH Royal Institute of Technology',
     duration: '2022 - 2024',
     status: 'Pursuing',
-    coursework: ['Machine Learning', 'Language Engineering', 'Speech Engineering', 'Deep Learning in Data Science', 'Data Mining', 'Artificial Neural Networks and Deep Architectures']
+    description: 'Double Degree with Centrale Nantes',
+    coursework: ['Machine Learning','Natural Language Processing', 'Computer Vision', 'Time-Series Analysis', 'Speech Engineering', 'Deep Learning in Data Science', 'Data Mining', 'Artificial Neural Networks and Deep Architectures']
   },
   {
     image: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Centrale_Nantes_Logo.svg/1280px-Centrale_Nantes_Logo.svg.png', // Replace with actual image URL
-    degree: 'MEng Computer Science',
+    degree: "Master's of Engineering in Computer Science",
     institution: 'Centrale Nantes',
     duration: '2020 - 2024',
     status: 'Pursuing',
+    description: "A highly selective French engineering school, member of France's Grandes Ecoles, conferring a diploma equivalent to a Master's Degree.",
     coursework: ['Object Oriented Programming', 'Database Management', 'Web programming', 'Reinforcement Learning', 'Statistics', ' Probability Theory', 'Mathematics for Engineers']
   },
   {
-    image: 'https://www.komiha.ma/img/light/projects/lydex/1.jpg', // Replace with actual image URL
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7L2tUR3enVupsoQoz3__YZbASk3c6_xAz-g&s', // Replace with actual image URL
     degree: 'Preparatory Classes for Engineering Schools',
     institution: 'Lycée d\'Excellence de Benguerir',
     duration: '2018 - 2020',
     status: 'Completed',
+    description: "An intensive two-year undergraduate course specialized in mathematics, computer science and physics, preparing for the top national competitive entrance exams of the French 'Grandes Écoles'",
     coursework: ['Mathematics', 'Physics', 'Chemistry']
   }
 ];
@@ -44,6 +47,7 @@ function Education() {
             duration={edu.duration}
             status={edu.status}
             coursework={edu.coursework}
+            description={edu.description}
           />
         ))}
       </div>

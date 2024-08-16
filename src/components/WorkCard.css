@@ -11,7 +11,6 @@
     transition: transform 0.3s;
     margin-bottom: 20px;
     width: 100%;
-    max-width: 800px;
   }
   
   .work-card:hover {
@@ -19,8 +18,8 @@
   }
   
   .work-logo-container {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin-right: 20px;
     flex-shrink: 0;
   }
@@ -28,7 +27,6 @@
   .work-logo {
     width: 100%;
     height: 100%;
-    object-fit: cover;
   }
   
   .work-content {
@@ -71,5 +69,24 @@
     padding: 5px 10px;
     font-size: 0.9rem;
     color: #333;
+  }
+  
+  .work-description-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .work-description-points {
+    margin: 0;
+    padding: 2% !important;
+  }
+  
+  .work-description-points li {
+    list-style-type: disc;
+  }
+  
+  .work-description-result {
+    margin-top: 10px;
+    font-weight: bold;
   }
   

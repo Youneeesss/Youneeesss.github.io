@@ -3,11 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #1d5ee0;
-  color: white;
-  border-radius: 8px;
+  color: rgb(95, 39, 201);
   padding: 20px 10px; /* Reduced padding */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
   text-align: center;
 }
@@ -17,12 +14,11 @@
 }
 
 .skill-icon {
-  font-size: 2.5rem; /* Reduced icon size */
-  margin-bottom: 30px;
+  font-size: 60px; /* Adjust size as needed */
 }
 
 .skill-name {
   font-size: 1rem; /* Slightly reduced font size */
-  color: white; /* Set color to white */
+  color: black; /* Set color to white */
   font-weight: bold; /* Set font to bold */
 }
